@@ -49,9 +49,31 @@ module.exports = function(grunt) {
         },
 
         langOverride: {
-            'en': {
+            en: {
                 'ANPA Category': 'Category',
-                'ANPA CATEGORY': 'CATEGORY'
+                'ANPA CATEGORY': 'CATEGORY',
+                'multi-line quote': 'pullquote',
+                'Multi-line quote': 'Pullquote',
+                'Correct': 'Update',
+                'CORRECT': 'Update',
+                'Correct item': 'Update item',
+                'Corrected': 'Updated',
+                'Send Correction': 'Send update',
+                'Update': 'New version',
+                'UPDATE': 'New version',
+                'Update created': 'New version created',
+                'Unlink update': 'Unlink new version',
+                'Update Created': 'New version created',
+                'U': 'NV',
+                'C': 'Update',
+                'Spike': 'Delete',
+                'spike': 'delete',
+                'Spike Item': 'Delete item',
+                'Spike item': 'Delete item',
+                'Spiked': 'Deleted',
+                'Spiked Items': 'Deleted items',
+                'Unspike Item': 'Undelete Item',
+                'Unspike': 'Undelete'
             }
         },
 

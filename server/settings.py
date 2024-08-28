@@ -58,7 +58,7 @@ DEFAULT_LANGUAGE = 'en'
 
 LANGUAGES = [
     {'language': 'en', 'label': 'English', 'source': True, 'destination': True},
-    {'language': 'fr', 'label': 'French', 'source': True, 'destination': True}
+    {'language': 'cnr', 'label': 'Montenegrin', 'source': True, 'destination': True}
 ]
 
 INSTALLED_APPS = [
