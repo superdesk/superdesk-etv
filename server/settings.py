@@ -9,19 +9,9 @@
 # AUTHORS and LICENSE files distributed with this source code, or
 # at https://www.sourcefabric.org/superdesk/license
 
-import os
 from pathlib import Path
 
-
-def env(variable, fallback_value=None):
-    env_value = os.environ.get(variable, '')
-    if len(env_value) == 0:
-        return fallback_value
-    else:
-        if env_value == "__EMPTY__":
-            return ''
-        else:
-            return env_value
+from superdesk.default_settings import env
 
 
 ABS_PATH = str(Path(__file__).resolve().parent)
@@ -59,11 +49,6 @@ DEFAULT_LANGUAGE = 'en'
 LANGUAGES = [
     {'language': 'en', 'label': 'English', 'source': True, 'destination': True},
     {'language': 'cnr', 'label': 'Montenegrin', 'source': True, 'destination': True}
-]
-
-INSTALLED_APPS = [
-    'apps.languages',
-    'apps.rundowns',
 ]
 
 # special characters that are disallowed
